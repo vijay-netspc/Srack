@@ -1,0 +1,11 @@
+The program must accept a character matrix of size RxC as the input. The program must print
+the number of paths P from the top-left corner to the bottom-right corner where - represents
+path and * represents obstacle. The movement can be either to the right or to the bottom from
+a given cell in the matrix.
+Boundary Condition(s):
+2 <=R,C <= 100
+Input Format:
+The first line contains R and C separated by a space.
+The next R lines, each contains C characters separated by a space.
+Output Format:
+The first line contains P.
