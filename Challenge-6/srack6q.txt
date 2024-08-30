@@ -1,0 +1,22 @@
+The program must accept an array of N integers and an integer K as the input. The program
+must remove a subarray of size K in the give array so that the sum of the remaining integers in
+the array is maximum. Then the program must print the integers that are removed from the
+array as the output. If two or more such subarrays are present in the given array, then the
+program must remove the first occurring subarray.
+Boundary Condition(s):
+1<=K<N <=1045
+-100 <= Each integer value <= 100
+Input Format:
+The first line contains N.
+The second line contains N integers separated by a space.
+The third line contains K.
+Output Format:
+The first line contains K integers representing the integers in the subarray which are removed
+as per the given conditions.
+Example Input/Output 1:
+Input:
+7
+10 20 5 2 -5 66 -69
+3
+Output:
+-5 66 -69
