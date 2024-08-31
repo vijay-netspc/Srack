@@ -1,0 +1,40 @@
+The program must accept N string values containing only alphabets as the input. The program
+must sort the string values based on the count of lower case alphabets. If two ore more string
+values have the same count of lower case alphabets, then the program must print those string
+values based on their order of occurrence as the output. Finally, the program must print the
+sorted string values as the output.
+
+Boundary Condition(s):
+
+2<=N<=50
+1 <= Length of each string <= 100
+
+Input Format:
+The first line contains N.
+The next N lines, each contains a string value.
+
+Output Format:
+The first N lines, each contains a string value based on the given conditions.
+
+Example Input/Output 1:
+
+Input:
+3
+candY
+faNcY
+mObile
+
+Output:
+faNcY
+candY
+mObile
+
+Explanation:
+The count of lower case alphabets in candY is 4.
+The count of lower case alphabets in faNcY is 3.
+The count of lower case alphabets in mObile is 5.
+After sorting the string values based on the count of lower case alphabets, the string values become
+
+faNcY
+candY
+mObile
