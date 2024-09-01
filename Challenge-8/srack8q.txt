@@ -1,0 +1,31 @@
+The program must accept the name and the published year of N books as the input. The program must print the name and the published year of the books based on the following conditions as the output:
+
+The books must be sorted in descending order based on the published year.
+If two or more books have the same published year, then those books must be sorted in ascending order based on the book name.
+If a book with multiple editions (i.e., a book has been published more than once), then consider only the most recently published book.
+Boundary Condition(s):
+
+1 ≤ N ≤ 50
+1 ≤ Length of the name of each book ≤ 20
+1800 ≤ Published year of each book ≤ 2020
+Input Format:
+
+The first line contains N.
+The next N lines, each contains the name and the published year of a book separated by a space.
+Output Format:
+
+The line(s), each contains the name and the published year of a book separated by a space.
+Example Input/Output 1:
+
+Input: 6
+Abc 2001
+XYZ 1997
+par 2002
+Abc 2010
+Abc 2006
+Efg 2002
+
+Output: Abc 2010
+Efg 2002
+par 2002
+XYZ 1997
