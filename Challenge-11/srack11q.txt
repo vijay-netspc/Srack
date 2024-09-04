@@ -1,0 +1,31 @@
+The program must accept three string values S1, S2 and S3 as the input. The program must remove the common characters in S1 and S3.
+Then the program must remove the common characters in S2 and S3. Finally, the program must print the remaining characters in S1 and S2 in the order of their occurrence as the output.
+
+Note: At least one character is always present in S1 or S2 after removing the common characters with S3.
+
+Boundary Condition(s):
+1 <= Length of S1, S2, S3 <= 100
+
+Input Format:
+The first line contains S1. The third line contains S3.
+The second line contains S2.
+
+Output Format:
+The first line contains the remaining characters in S1 and S2 after removing the common characters.
+
+Example Input/Output 1:
+
+Input:
+cloud
+lab
+clab
+
+Output:
+oudl
+
+Explanation:
+After removing the common characters in S1 and S3, the string values become S1 = "oud"
+S3 = "ab"
+After removing the common characters in S2 and S3, the string values become S2 = "1" S3 =
+The remaining characters in S1 and S2 are o, u, d and I. So they are printed as the
+output.
