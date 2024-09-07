@@ -1,0 +1,29 @@
+The program must accept a string S containing multiple words as the input. The program must sort the words in S based on the number of vowels in descending order. 
+Then the program must print the modified string S as the output. 
+If two or more words having the same number of vowels, then the program must sort those words in the order of their occurrence.
+
+Boundary Condition(s): 
+3 <= Length of S <= 1000
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The first line contains the modified string S.
+
+Example Input/Output 1:
+Input: 
+He separated the fighting children
+
+Output: 
+separated fighting children He the
+
+Explanation: 
+The word "He" contains 1 vowel.
+The word "separated" contains 4 vowels.
+The word "the" contains 1 vowel.
+The word "fighting" contains 2 vowels.
+The word "children" contains 2 vowels.
+After sorting the words based on the number of vowels in descending order, the string becomes "separated fighting children He the".
+Hence the output is
+separated fighting children He the
