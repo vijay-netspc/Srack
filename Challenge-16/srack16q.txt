@@ -1,0 +1,33 @@
+The program must accept an integer N as the input. The program must find the number of factors M for the integer N.
+Then the program form a grid of size MxM and fill the grid based on the following conditions.
+- The cells in the first inverted L-shaped layer are filled with the first factor of N.
+- The cells in the second inverted L-shaped layer are filled with the second factor of N.
+- Similarly, the remaining inverted L-shaped layers of the grid are filled with the remaining factors of N.
+
+Boundary Condition(s):
+1 <= N <= 10^5
+
+Input Format:
+The first line contains N.
+
+Output Format:
+The first M lines, each contains M integers separated by a space.
+
+Example Input/Output 1:
+Input:
+6
+
+Output:
+1 1 1 1
+1 2 2 2
+1 2 3 3
+1 2 3 6
+
+Explanation:
+Here N = 6.
+The factors of 6 are 1, 2, 3 and 6. So the value of M is 4.
+The grid of size 4x4 with the factors of 6 is given below.
+1 1 1 1
+1 2 2 2
+1 2 3 3
+1 2 3 6
