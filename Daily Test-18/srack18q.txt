@@ -1,0 +1,34 @@
+The program must accept N space-separated string values as the input. The program
+must print the count of common words in the N string values as the output. If a word
+has occurred more than once in all the N string values then the program must
+consider the count as 1 for that common word.
+
+Note: The N string values are case sensitive.
+
+Boundary Condition(s):
+2 <=N <= 100
+3 <= Length of each string value <= 1000
+1 <= Length of each word <= 20
+
+Input Format:
+The first line contains N.
+The next N lines, each containing a string value.
+
+Output Format:
+The first line contains the count of common words in the N string values.
+
+Example Input/Output 1:
+Input:
+3
+hi hello world
+hi how are you world
+say hi to the world
+
+Output:
+2
+
+Explanation:
+The common words in the 3 string values are hi and world, so the count of common
+words is 2.
+
+Hence the output is 2
