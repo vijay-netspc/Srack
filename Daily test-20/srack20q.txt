@@ -1,0 +1,37 @@
+The program must accept a string S$ containing multiple words as the input. The
+program must find the words which are repeated more than once in the string S.
+Then the program must sort the repeated words in descending order based on the
+length. If two or more words have the same length, then the program must sort
+those words in the order of their occurrence. If all the words in the string S are
+unique, then the program must print -1 as the output.
+
+Boundary Condition(s):
+3 <= Length of S <= 1000
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The first line contains the repeated words based on the given conditions or -1.
+
+Example Input/Output 1:
+Input:
+when there is a will there is a way
+
+Output:
+there is a
+
+Explanation:
+
+In the string “when there is a will there is a way”, the repeated words are there, is
+and a.
+
+The length of the word there is 5.
+
+The length of the word is is 2.
+
+The length of the word a is 1.
+
+After sorting the repeated words in descending order based on the length, the words
+become
+there is a
