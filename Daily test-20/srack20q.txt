@@ -1,4 +1,4 @@
-The program must accept a string S$ containing multiple words as the input. The
+The program must accept a string S containing multiple words as the input. The
 program must find the words which are repeated more than once in the string S.
 Then the program must sort the repeated words in descending order based on the
 length. If two or more words have the same length, then the program must sort
