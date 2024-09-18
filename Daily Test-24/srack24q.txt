@@ -1,0 +1,22 @@
+The program must accept a string S (encrypted string) containing digits and asterisks as the input. The encryption algorithm is given below:
+
+The alphabets from a to j are replaced with the digits from 0 to 9 respectively.
+The alphabets from k to z are replaced with the values from 10* to 25* respectively.
+The program must decrypt the string S and print it as the output.
+
+Note: The string S is always a valid encrypted string.
+
+Boundary Condition(s):
+1 <= Length of S <= 100
+
+Input Format:
+The first line contains the encrypted string S.
+
+Output Format:
+The first line contains the decrypted string S.
+
+Example Input 1:
+18*10*811*11*17*0210*
+
+Output:
+skillrack
