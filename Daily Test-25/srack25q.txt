@@ -1,0 +1,38 @@
+The program must accept N string values as the input. The program must print all possible
+prefixes of length 3 along with the number of string values having those prefixes among the N
+string values as the output. The prefixes must be printed in sorted order.
+
+Boundary Condition(s):
+1 <= N <= 100
+4 <= Length of each string <= 100
+
+Input Format:
+The first line contains N.
+The next N lines, each contains a string.
+
+Output Format:
+The lines, each contains a prefix of length 3 and the number of string values having the prefix
+separated by a space.
+
+Example Input/Output 1:
+Input:
+11
+honey
+danger
+dangling
+ball
+honour
+donkey
+strong
+state
+honda
+honesty
+stroke
+
+Output:
+bal 1
+dan2
+don 1
+hon 4
+sta
+str2
