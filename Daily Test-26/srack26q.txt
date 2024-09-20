@@ -1,0 +1,30 @@
+The program must accept a string S and an integer K as the input. The program must print all
+possible unique substrings of length K along with the count of their occurrence in the string S
+as the output. The substrings must be printed in the order of their occurrence in the string S.
+
+Boundary Condition(s):
+2 <= Length of S <= 100
+1 <= K <= Length of S
+
+Input Format:
+The first line contains S.
+The second line contains K.
+
+Output Format:
+The line(s), each contains the substring of length K and the count of its occurrence in the string
+S.
+
+Example Input/Output 1:
+Input:
+engineering
+2
+
+Output:
+en 1
+ng 2
+gi 1
+in 2
+ne 1
+ee 1
+er 1
+ri 1
