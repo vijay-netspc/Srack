@@ -1,0 +1,27 @@
+A magic candle will always glow, but if someone drops a drop of water 
+on the candle it will not light up for the next X seconds and then it will 
+start to light up again. The program must accept N sorted integers representing
+the time series in which the water drops on the candle and the value of X as the input.
+The program must print the total time that the candle is not in the glowing state as the output. 
+If a drop of water dropped on the candle when it is not in the glowing state, then the 
+candle will start to light up after X seconds 
+(i.e., the candle will not consider the previous drop of water).
+
+Boundary Condition(s):
+1 <= N <= 1000 1 <= Each integer value <= 10^8
+1 <= x <= 100
+
+Input Format:
+The first line contains N.
+The second line contains N integers separated by a space. The third line contains X.
+
+Output Format:
+The first line contains the total time that the candle is not in the glowing state.
+
+Example Input/Output 1:
+Input:
+4
+1 6 10 11
+2
+Output:
+7
