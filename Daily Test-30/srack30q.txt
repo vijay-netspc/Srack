@@ -1,0 +1,28 @@
+The program must accept an integer matrix of size RxC as the input. The program 
+must sort the 2x2 submatrices in the matrix based on the integer present in the 
+top-left position. If two or more submatrices have the same integer value in the top-left position,
+then the program must sort those submatrices in the order of their occurrence.
+Note: The values of R and C are always even.
+
+Boundary Condition(s):
+4 <= R, C <= 50
+
+Input Format:
+The first line contains R and C separated by a space.
+The next R lines, each contains C integers separated by a space.
+
+Output Format:
+The first R lines, each contains C integers separated by a space.
+
+Example Input/Output 1:
+Input:
+4 4
+64 39 75 90
+55 35 50 98
+95 37 30 49
+80 56 13 65
+Output:
+30 49 64 39
+13 65 55 35
+75 90 95 37
+50 98 80 56
