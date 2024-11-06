@@ -1,0 +1,28 @@
+In a spin game, the integers from 0 to 99 are written on the border of a wheel in clockwise
+direction. Initially, the top of the wheel indicates the integer K. A boy spins the wheel N times.
+For each spin, X integers cross the top position of the wheel either in the clockwise(positive
+value) or counterclockwise(negative value) direction. The program must accept N integers
+representing the N spins and the value of K as the input. The program must print the integer
+present on the top of the wheel after each spin as the output.
+
+Boundary Condition(s):
+1 <=N <= 1000
+0<=K <=99
+-1048 <= Each integer value <= 1048
+
+Input Format:
+The first line contains N.
+The second line contains N integers separated by a space.
+The third line contains K.
+
+Output Format:
+The first line contains N integers separated by a space.
+
+Example Input/Output 1: N
+Input:
+4
+5-4-36
+0
+
+Output:
+95 99 2 96
