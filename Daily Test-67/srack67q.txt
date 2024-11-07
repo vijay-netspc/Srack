@@ -1,0 +1,64 @@
+The program must accept a time T in 24-hr format (HH:MMSSS) as the input. The program
+must print the binary clock representation for the given time T.
+
+The following five lines represent the format of the Binary Clock.
+
+HH:MM:SS
+#- #- #-
+#- -- --
+-- -- --
+-- -- --
+
+The hyphens in each column (from top to bottom) of the binary clock represent the binary
+representation of the corresponding digit in the given time (HH:MM:SS). The hash symbols (#)
+in the binary clock represent the empty cells.
+
+Boundary Condition(s):
+0 <= HH <= 23
+0 <= MM <=59
+0 <=SS <= 59
+
+Input Format:
+The first line contains the time T in 24-hr format (HH:MM:SS).
+
+Output Format:
+The first five lines contain the binary clock representation of the given time T.
+
+Example Input/Output 1:
+Input:
+12:35:49
+
+Output:
+HH:MM:SS
+#0 #0 #1
+#0 01 10
+01 10 00
+10 11 01
+
+Explanation:
+
+The given time T is 12:35:49.
+
+The 1st column represents the digit 1. So the hyphens in the 1st column are replaced with the
+binary representation of 1 (##01).
+The 2nd column represents the digit 2. So the hyphens in the 2nd column are replaced with the
+binary representation of 2 (0010).
+The 3rd column represents the digit 3. So the hyphens in the 3rd column are replaced with the
+binary representation of 3 (#011).
+The 4th column represents the digit 5. So the hyphens in the 4th column are replaced with the
+binary representation of 5 (0101).
+The 5th column represents the digit 4. So the hyphens in the 5th column are replaced with the
+binary representation of 4 (#100).
+The 6th column represents the digit 9. So the hyphens in the 6th column are replaced with the
+binary representation of 9 (1001).
+
+Example Input/Output 2:
+Input:
+00:15:59
+
+Output:
+HH:MM:SS
+#0 #0 #1
+#0 01 10
+00 00 00
+00 11 11
